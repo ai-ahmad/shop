@@ -1,0 +1,122 @@
+* {
+    transition: all 0.1s ease-in-out;
+}
+
+section {
+    margin-top: 130px;
+}
+
+
+.card {
+ box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+ width: 23%;
+ height: 520px;
+ background-color: white;
+ padding: 10px;
+ border-radius: 10px;
+}
+
+.card
+.card::before {
+  background: linear-gradient(43deg, rgb(65, 88, 208) 0%, rgb(200, 80, 192) 46%, rgb(255, 204, 112) 100%);
+}
+
+
+.wrapper-card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    gap: 30px 2%;
+}
+
+
+.img-card > img {
+    width: 100%;
+    border-radius: 20px;
+    height: 300px;
+}
+
+.img-card > h3 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+
+
+.card-text1 > h3 {
+    font-weight: 300;
+    border-bottom: 1px solid black;
+    padding: 10px 0;
+}
+
+
+.price-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+}
+
+.price-card > h2{
+    font-weight: 500;
+}
+
+
+.price-card > button {
+    font-size: 30px;
+    width: 100px;
+    height: 50px;
+    border: 3px solid black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 800;
+    background-color: transparent;
+    color: black;
+}
+
+.price-card > button:hover {
+    border: 3px solid rgb(89, 89, 246);
+    color: rgb(89, 89, 246);
+}
+
+
+
+/*       .zoomOutRight {
+  -webkit-animation-name: zoomOutRight;
+  animation-name: zoomOutRight;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  }
+  @-webkit-keyframes zoomOutRight {
+  40% {
+  opacity: 1;
+  -webkit-transform: scale3d(.475, .475, .475) translate3d(-42px, 0, 0);
+  transform: scale3d(.475, .475, .475) translate3d(-42px, 0, 0);
+  }
+  100% {
+  opacity: 0;
+  -webkit-transform: scale(.1) translate3d(2000px, 0, 0);
+  transform: scale(.1) translate3d(2000px, 0, 0);
+  -webkit-transform-origin: right center;
+  transform-origin: right center;
+  }
+  }
+  @keyframes zoomOutRight {
+  40% {
+  opacity: 1;
+  -webkit-transform: scale3d(.475, .475, .475) translate3d(-42px, 0, 0);
+  transform: scale3d(.475, .475, .475) translate3d(-42px, 0, 0);
+  }
+  100% {
+  opacity: 0;
+  -webkit-transform: scale(.1) translate3d(2000px, 0, 0);
+  transform: scale(.1) translate3d(2000px, 0, 0);
+  -webkit-transform-origin: right center;
+  transform-origin: right center;
+  }
+  }  */

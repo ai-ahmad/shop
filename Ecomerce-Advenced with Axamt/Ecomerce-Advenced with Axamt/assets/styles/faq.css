@@ -1,0 +1,57 @@
+main {
+    margin-top: 140px;
+    transition: all 1s;
+}
+
+h1 {
+    padding: 20px;
+    text-align: center;
+}
+
+.card {
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #eae2e2;
+    padding: 15px;
+    border-radius: 4px;
+    height: auto;
+    margin-top: 10px;
+}
+
+.card-wraper {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.open {
+    font-size: 30px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+
+
+.close {
+    font-size: 30px;
+    font-weight: 600;
+    display: none;
+    cursor: pointer;
+}
+
+.card-wraper > h2 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+.card-text {
+    font-size: 17px;
+    line-height: 30px;
+    display: none;
+}
+
+
+.card-open  {
+    display: block;
+}
